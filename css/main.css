@@ -71,3 +71,35 @@ li img {
   border-radius: 100px;
   margin: 10px;
 }
+
+@keyframes reveal {
+  from {
+    transform: translateX(300px);
+    opacity: 0%;
+  }
+  to {
+    transform: translateX(0px);
+    opacity: 100%
+  }
+}
+.facebox {
+  animation: reveal .8s ease-out;
+}
+.eyes {
+  position: relative;
+}
+@keyframes sexyeyebrows {
+  0% {transform: translateY(5px);}
+  50% {transform: translateY(-5px);}
+  100% {transform: translateY(5px);}
+}
+.browdance {
+  animation: sexyeyebrows .7s infinite;
+}
+
+@keyframes fury {
+  
+}
+.anger {
+  animation: fury 2s forwards;
+}
