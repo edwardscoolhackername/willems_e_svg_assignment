@@ -4,13 +4,44 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/reset.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet">
+
   <link rel="stylesheet" href="css/main.css">
-  <title>SVG Assignment</title>
+  <title>SVG Assignment - Edward Willems</title>
 </head>
 <body>
+  <main id="sitecontainer">
 
-  <script src="js/main.js">
+    <h1 class="hidden">Team Site</h1>
+    <header id="mainheader">
+      <h2 class="hidden">Main Header</h2>
+      <ul id="navbox">
+        <li><a class="navigation" href="#">Home</a></li>
+        <li><a class="navigation" href="#">About Us</a></li>
+        <li><a class="navigation" href="index.html">Meet the Team</a></li>
+        <li><a class="navigation" href="#">Merchandise</a></li>
+      </ul>
+    </header>
 
-  </script>
+      <section id="maincontainer">
+        <div id="leftbox">
+          <h3>Meet the Team!</h3>
+
+          <ul id="faceselector">
+            <li><a href="#"><img src="images/menu_edward.png" alt=""></a></li>
+            <li><a href="#"><img src="images/menu_jasmin.png" alt=""></a></li>
+            <li><a href="#"><img src="images/menu_nic.png" alt=""></a></li>
+            <li><a href="#"><img src="images/menu_sam.png" alt=""></a></li>
+            <li><a href="#"><img src="images/menu_thomas.png" alt=""></a></li>
+          </ul>
+        </div>
+        <div id="rightbox"></div>
+      </section>
+
+  </main>
+  <script src="js/main.js"></script>
 </body>
 </html>
