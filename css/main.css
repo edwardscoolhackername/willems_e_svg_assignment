@@ -6,6 +6,12 @@ h3 {
   font-family: 'Oswald', sans-serif;
   font-size: 40px;
 }
+h4 {
+  color: #5E387A;
+  font-family: 'Oswald', sans-serif;
+  font-size: 60px;
+  text-align: center;
+}
 
 #sitecontainer {
   width: 1000px;
@@ -45,7 +51,11 @@ h3 {
 
 }
 #rightbox {
-
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+  width: 600px;
 }
 
 #faceselector {
@@ -56,5 +66,8 @@ h3 {
 }
 
 li img {
-  width: 150px;
+  width: 100px;
+  background-color: #fff;
+  border-radius: 100px;
+  margin: 10px;
 }
